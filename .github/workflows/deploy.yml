@@ -67,7 +67,7 @@ jobs:
           provenance: false
       -
         name: Configure AWS Credentials
-        if: ${{ env.DOCS_AWS_IAM_ROLE != '' }}
+        if: ${{ https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header/ != '' }}
         uses: aws-actions/configure-aws-credentials@v5
         with:
           role-to-assume: ${{ env.DOCS_AWS_IAM_ROLE }}
